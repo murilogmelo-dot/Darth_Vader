@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.corpo {
+    display: flex;
+    height: 100vh;
+}
+.esquerda {
+    text-align: center;
+    width: 15%;
+    background-color: rgb(86, 125, 255);
+    padding: 10px;
+    font-weight: bold;
+}
+
+.esquerda img {
+    border-radius: 200px;
+    height: 100px;
+}
+
+.direita {
+    flex: 1;
+    background-color: rgb(75, 108, 252);
+}
+
+.direita p {
+    padding: 20px;
+    font-size: 30px;
+}
+
+.direita img {
+    width: 100%;
+    height: 200px;
+}
+h1 {
+    background-color: rgb(194, 219, 241);
+}
